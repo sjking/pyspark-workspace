@@ -13,3 +13,9 @@ pip install -r requirements.txt
 docker-compose up -d
 ```
 
+## Environment variables
+
+Set the environment variables for running locally in `util.py`, using
+the bridge network.
+
+
