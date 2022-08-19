@@ -18,4 +18,4 @@ docker-compose up -d
 Set the environment variables for running locally in `util.py`, using
 the bridge network.
 
-
+Use an `.env` file for docker-compose.
