@@ -6,6 +6,8 @@ from spark_driver.jobs.example1 import example1
 from spark_driver.jobs.rdd import run_rdd_example
 from spark_driver.jobs.movies import count_movie_sequel
 from spark_driver.jobs.data_frames import gone_with_the_wind
+from spark_driver.jobs.spark_sql import query_example
+from spark_driver.jobs.joins import joins
 
 logger = logging.getLogger(__name__)
 
@@ -14,7 +16,9 @@ jobs = [
     # (example1, None)
     # (run_rdd_example, None)
     # (count_movie_sequel, None)
-    (gone_with_the_wind, None)
+    # (gone_with_the_wind, None)
+    # (query_example, None)
+    (joins, None)
 ]
 
 

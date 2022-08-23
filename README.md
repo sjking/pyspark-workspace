@@ -26,3 +26,6 @@ Use an `.env` file for docker-compose.
 ln -s $(pwd)/data /tmp/data
 ```
 
+## Test Data
+
+Data is from Bollywood movies on kaggle.
