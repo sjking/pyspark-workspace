@@ -8,17 +8,19 @@ from spark_driver.jobs.movies import count_movie_sequel
 from spark_driver.jobs.data_frames import gone_with_the_wind
 from spark_driver.jobs.spark_sql import query_example
 from spark_driver.jobs.joins import joins
+from spark_driver.jobs.structured_streaming_quick import quick_example
 
 logger = logging.getLogger(__name__)
 
 jobs = [
-    # (sum_n_numbers, (100000, )),
-    # (example1, None)
-    # (run_rdd_example, None)
-    # (count_movie_sequel, None)
-    # (gone_with_the_wind, None)
-    # (query_example, None)
-    (joins, None)
+    (sum_n_numbers, (100000, )),
+    (example1, None),
+    (run_rdd_example, None),
+    (count_movie_sequel, None),
+    (gone_with_the_wind, None),
+    (query_example, None),
+    (joins, None),
+    (quick_example, None)
 ]
 
 
